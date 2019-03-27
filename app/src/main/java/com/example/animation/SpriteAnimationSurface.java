@@ -47,7 +47,7 @@ public class SpriteAnimationSurface extends SurfaceView implements Runnable, Sur
     public void surfaceCreated(SurfaceHolder surfaceHolder) {
         // start the animation thread once the surface has been created
         controller = new Thread(this);
-        Log.e("test1", "test1");
+
 
         running = true;
 
